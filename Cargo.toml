@@ -5,6 +5,7 @@ authors = ["Xavier Cambar <xcambar@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+openssl = { version = '0.10', features = ['vendored']}
 ansi_term = "0.11"
 clap = "2.33"
 dirs = "2.0"
